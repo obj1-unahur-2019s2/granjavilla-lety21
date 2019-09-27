@@ -22,6 +22,8 @@ program farmville {
  		game.addVisualIn(new Trigo(), hector.position())
  	}
  	keyboard.o().onPressDo{
+ 		const t=new Tomaco()
+ 		t.position(hector.position())
  		game.addVisualIn(new Tomaco(), hector.position())
  	}
 	keyboard.r().onPressDo{

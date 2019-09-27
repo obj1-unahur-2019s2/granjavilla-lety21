@@ -6,15 +6,18 @@ class Maiz {
 }
 
 class Trigo {
-	var property image ="wheat_0.png"
+	var etapa=0
 	method regar() {
-		image= "wheat_1.png"
+		etapa+=1
+		}
+	method image(){
+		return "wheat_" + etapa + ".png"
 	}	
 }
 
 class Tomaco {
-	var property image ="tomaco_baby.png"
+	var property image ="tomaco.png"
 	method regar() {
-		image= "tomaco.png"
+		
 	}	
 }
